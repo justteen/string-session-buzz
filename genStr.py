@@ -18,6 +18,17 @@ ini adalah Pyrogram's String Session Generator Bot. Saya akan generate String Se
 By @psycho_syridwan
 
 Sekarang kirim `API_ID` sesuai `APP_ID` untuk Start Generating Session."""
+    reply_markup = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton('Support Group', url='https://t.me/ossuport'),
+                InlineKeyboardButton('Developer', url='https://t.me/psycho_syridwan')
+            ],
+            [
+                InlineKeyboardButton('Bots Updates Channel', url='https://t.me/ossuport3'),
+            ]
+        ]
+    )
 HASH_TEXT = "Kirim `API_HASH`.\n\ntekan /cancel untuk cancel tugas."
 PHONE_NUMBER_TEXT = (
     "Sekarang kirim no Telegram kamu, format internasional. \n"
