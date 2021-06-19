@@ -16,9 +16,7 @@ API_TEXT = """Hi, {}.
 ini adalah Pyrogram's String Session Generator Bot. Saya akan generate String Session akun telegram kamu.
 
 By @psycho_syridwan
-
-Sekarang kirim `API_ID` sesuai `APP_ID` untuk Start Generating Session."""
-    reply_markup = InlineKeyboardMarkup(
+reply_markup = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton('Support Group', url='https://t.me/ossuport'),
@@ -29,6 +27,8 @@ Sekarang kirim `API_ID` sesuai `APP_ID` untuk Start Generating Session."""
             ]
         ]
     )
+
+Sekarang kirim `API_ID` sesuai `APP_ID` untuk Start Generating Session."""
 HASH_TEXT = "Kirim `API_HASH`.\n\ntekan /cancel untuk cancel tugas."
 PHONE_NUMBER_TEXT = (
     "Sekarang kirim no Telegram kamu, format internasional. \n"
