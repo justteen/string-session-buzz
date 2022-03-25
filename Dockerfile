@@ -17,4 +17,4 @@ WORKDIR /string-session-buzz
 
 RUN pip3 install -U -r requirements.txt
 
-CMD python3 PROCF
+CMD python3 genStr.py
